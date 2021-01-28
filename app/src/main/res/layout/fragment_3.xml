@@ -6,9 +6,6 @@
     tools:context=".Fragment3">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="3333333333333333333333" />
+//9ac0a9da6c616e4875c41d98ed847124
 
 </FrameLayout>

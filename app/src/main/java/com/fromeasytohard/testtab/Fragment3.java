@@ -1,12 +1,12 @@
 package com.fromeasytohard.testtab;
 
 import android.os.Bundle;
-
-import androidx.fragment.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebView;
+
+import androidx.fragment.app.Fragment;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -14,6 +14,8 @@ import android.view.ViewGroup;
  * create an instance of this fragment.
  */
 public class Fragment3 extends Fragment {
+
+    private WebView sda;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -53,6 +55,20 @@ public class Fragment3 extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+/*
+        sda =
+
+        URL url = new URL("http://developer.alexanderklimov.ru/android/");
+        HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
+
+        try {
+            InputStream in = new BufferedInputStream(urlConnection.getInputStream());
+            readStream(in);
+    finally {
+                urlConnection.disconnect();
+            }
+        }
+        //get("http://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=9ac0a9da6c616e4875c41d98ed847124", params, new TextHttpResponseHandler() {*/
     }
 
     @Override
